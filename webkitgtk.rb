@@ -22,6 +22,7 @@ class Webkitgtk < Formula
     url "https://github.com/WebKit/webkit.git"
     depends_on "cmake" => :build
     depends_on "python2" => :build
+    depends_on "valgrind" => :build
     depends_on "gtk+3"
     depends_on "libsoup"
     depends_on "autoconf"
